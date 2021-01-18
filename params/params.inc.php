@@ -1,8 +1,14 @@
 <?php
+
+// Configuration MariaDB
+
+/*define("MYHOST", "localhost");
+define("MYUSER", "gmao");
+define("MYPASS", "*Fs4>B(h58Sd");
+define("MYBASE","gmao_dev");*/
 define("MYHOST", "localhost");
 define("MYUSER", "root");
 define("MYPASS", "root");
-
 
 
 // HTTP_HOST: contenu de l'en-tête c'est la requête courante

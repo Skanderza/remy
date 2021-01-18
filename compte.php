@@ -61,8 +61,8 @@
             $role = $connexionSQL->real_escape_string($_POST['role']);
 
         //Hachage du mot de passe
-       // $pass_hash = password_hash($psw, PASSWORD_DEFAULT);//NOK
-      // $psw = hash('sha256', $psw);
+        //$pass_hash = password_hash($psw, PASSWORD_DEFAULT);//NOK
+        $psw = hash('sha256', $psw);
 
         
         $requete = "INSERT INTO utilisateur(ut_prenom, ut_nom, ut_email, ut_fonction, ut_psw, ro_index) 
